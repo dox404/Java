@@ -1,0 +1,16 @@
+package First;
+
+public class method {
+
+	public static void main(String[] args) {
+		method m=new method();
+		int r=m.sum(1, 2);
+		System.out.println(r);
+
+	}
+	
+	int sum(int a, int b) {
+		return a+b;
+	}
+
+}

@@ -1,0 +1,10 @@
+package First;
+
+public class second {
+	int n=10;
+	public static void main(String args[]) {
+		second i=new second();
+		System.out.println(i.n);
+	}
+
+}

@@ -1,0 +1,16 @@
+package First;
+
+public class method {
+
+	public static void main(String[] args) {
+		goodmoring();
+		
+//		System.out.println(r);
+	}
+	
+	
+	static void goodmoring() {
+		System.out.println("Good morning");
+	}
+
+}

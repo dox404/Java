@@ -1,0 +1,27 @@
+package First;
+
+
+class vv{
+	int a; String name;
+	vv(){
+		a=1000;
+		name="Muktarul Hoque";
+	}
+	
+	void disp() {
+		System.out.println(a+" "+name);
+	}
+}
+
+
+
+public class Constructer {
+
+	public static void main(String[] args) {
+		vv obj =new vv();
+		
+		obj.disp();
+
+	}
+
+}

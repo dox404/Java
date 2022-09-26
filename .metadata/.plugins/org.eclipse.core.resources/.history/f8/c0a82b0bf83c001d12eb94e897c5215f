@@ -1,0 +1,26 @@
+package First;
+
+
+class A{
+	int a; String name;
+//	A(){
+//		
+//	}
+	
+	void disp() {
+		System.out.println(a+" "+name);
+	}
+}
+
+
+
+public class Constructer {
+
+	public static void main(String[] args) {
+		A obj =new A();
+		
+		obj.disp();
+
+	}
+
+}

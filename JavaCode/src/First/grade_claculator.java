@@ -1,0 +1,29 @@
+package First;
+
+import java.util.Scanner;
+
+public class grade_claculator {
+
+		public static void main(String[] args) {
+		int marks;
+		System.out.println("Enter the marks: ");
+		Scanner s=new Scanner(System.in);
+		
+		marks=s.nextInt();
+		
+		if(marks<=100 && marks>70) {
+			System.out.println("Outstanding !!");
+		}
+		else if(marks<70 && marks >40) {
+			System.out.println("Avarage !!");
+		}
+		else if(marks<40 && marks>0) {
+			System.out.println("discualify !!");
+			
+		}
+		else {
+			System.out.println("Enter a valid marks!!");
+		}
+	}
+
+}

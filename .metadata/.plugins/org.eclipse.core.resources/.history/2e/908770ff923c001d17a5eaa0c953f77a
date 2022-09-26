@@ -1,0 +1,18 @@
+package First;
+
+public class method {
+
+	public static void main(String[] args) {
+		method g=new goodmoring();
+		g.goodmoring();
+		
+//	
+//		System.out.println(r);
+	}
+	
+	
+	 void goodmoring() {
+		System.out.println("Good morning");
+	}
+
+}
